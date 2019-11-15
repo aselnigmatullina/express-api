@@ -1,6 +1,8 @@
 
 @host = http://localhost:9999
 
+# @host = https://aselnigmatullina-express-api.herokuapp.com
+
 ###
 GET {{host}}/posts
 
@@ -26,7 +28,7 @@ Content-Type: application/json
 DELETE {{host}}/posts/1
 
 ###
-POST {{host}}/posts/1/likes
+POST {{host}}/posts/3/likes
 
 ###
 DELETE {{host}}/posts/1/likes
